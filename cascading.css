@@ -1,0 +1,24 @@
+h3{
+    color: green;
+    font-family: 'Caveat', cursive;
+}
+.head1
+{
+    color: brown;
+    font-size: 30px;
+    text-decoration: overline;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #00990a;
+
+}
+.head4
+{
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.back
+{
+    background-image:url("./asserts/apple4");
+    background-size: cover;
+}

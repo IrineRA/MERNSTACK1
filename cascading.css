@@ -19,6 +19,9 @@ h3{
 }
 .back
 {
-    background-image:url("./asserts/apple4");
-    background-size: cover;
+   background-image: url("./asserts/apple4.jpg");
+background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 800em;
 }

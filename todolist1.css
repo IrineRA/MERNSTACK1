@@ -1,0 +1,74 @@
+.todo
+{
+    background-image: url(https://ik.imagekit.io/4z8covdo9/Full%20stack/todolistbg.png?updatedAt=1700761069523);
+    background-repeat: no-repeat;
+background-size: cover;
+font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    color: white;
+ background-position: center center; 
+
+    width: 500px;
+}
+.full
+{
+    background-color: rgb(24, 1, 1);
+    width: 1800px;
+  padding: 40px;
+  padding-left: 500px;
+    background-size: cover;
+    margin: 20px;
+    height: 800px;
+}
+.heading1
+{
+    font-weight: bold;
+    font-size: 40px;
+    
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+.heading2
+{
+    font-weight: 600;
+    text-align: start;
+    font-size: 22px;
+    
+    padding-left: 40px;
+}
+.p1
+{
+    font-weight: 400;
+    padding-left: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.p2
+{
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 40px;
+}
+.p3
+{
+    font-weight: 400;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    text-decoration: underline;
+}
+.btn
+{
+    width:90px;
+    height: 40px;
+
+    font-size: 16px;
+    color: white;
+    background-color:#ff6600;
+    border-width: 3px;
+}
+.btn1
+{
+    text-align: center;
+}

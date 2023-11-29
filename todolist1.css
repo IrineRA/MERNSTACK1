@@ -4,21 +4,21 @@
     background-repeat: no-repeat;
 background-size: cover;
 font-family: 'Roboto', sans-serif;
-    height: 100vh;
+
     color: white;
  background-position: center center; 
-
+ height:1000px;
     width: 500px;
 }
 .full
 {
     background-color: rgb(24, 1, 1);
-    width: 1800px;
+height:1000px;
   padding: 40px;
   padding-left: 500px;
     background-size: cover;
     margin: 20px;
-    height: 800px;
+   
 }
 .heading1
 {

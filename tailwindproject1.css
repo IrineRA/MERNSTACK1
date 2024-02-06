@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Poppins:wght@300&family=Roboto:wght@300;400;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bgimg
+{
+    background-image: url('https://code-with-akash.github.io/foodmunch/images/banner_bg1.png');
+    background-size: cover;
+   height: 100vh;
+}
+.choose-section
+{
+background-color:#ebebf1;
+}
+.videosec
+{
+    background-color:#ebebf1;
+    
+}
+.exploresec
+{
+    background-color: #ebebf1;
+   
+}
+.deliverysec
+{
+    background-color: #f5f7e9;
+    
+}
+.giftsec
+{
+    background-color:#f6edc2;
+  
+}
+.followsec
+{
+    background-color: #ebebf1;
+ 
+}
+.footersec
+{
+
+    background-color: #013d41;
+}

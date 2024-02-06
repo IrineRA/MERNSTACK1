@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav>
-    <div class="2xl:container bg-[] ">
+    <div class="2xl:container bg-yellow-500 ">
         <div class="mx-auto w-[90%] grid grid-cols-1 md:grid-cols-2">
             <div class=" flex flex-col justify-center ">
 <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png" alt="logo" class="w-28 py-3"/>
@@ -19,7 +19,7 @@
             <div class=" flex flex-col items-center justify-center">
             <ul class="flex space-x-5">
                     <li class="text-red-600 text-lg underline-offset-2" ><a href="#choosesec">Why choose Us</a></li>
-                    <li class=" text-lg"><a href="#menusec">Menu</a></li>
+                    <li class=" text-lg text"><a href="#menusec">Menu</a></li>
                     <li class=" text-lg"><a href="#delisec">Delivery & Payments</a></li>
                     <li class=" text-lg"><a href="#follsec">Follow Us</a></li>
                 </ul>
@@ -267,8 +267,8 @@ width="1em"
 <!--Delivery-->
 <section class="deliverysec" id="delisec">
   <div class="2xl:container">
-    <div class=" w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 space-y-5">
-      <div class=" flex flex-col items-start gap-y-4 py-6 ">
+    <div class=" w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 space-y-5 ">
+      <div class=" flex flex-col items-start gap-y-4 py-6 order-2 md:order-1">
         <h1 class="text-[26px] font-semibold">Delivery and Payment</h1>
         <p class="text-[20px]">Enjoy hassle-free payment with the plenitude of payment options available for you. Get live tracking and locate your food on a live map. It's quite a sight to see your food arrive to your door. Plus, you get a 5% discount on every order every time you pay online.</p>
         <button class="bg-yellow-500 p-3 rounded-lg font-['Poppins'] text-[20px] text-white">Order Now</button>
@@ -286,7 +286,7 @@ width="1em"
     </div>
 
 
-           <div class=" flex flex-col items-center justify-center">
+           <div class=" flex flex-col items-center justify-center order-1 md:order-2">
         <img class="h-60 w-78"  src="https://code-with-akash.github.io/foodmunch/images/payment-section-img.png">
       </div>
 
@@ -303,10 +303,11 @@ width="1em"
 <div class=" flex flex-col items-start justify-center gap-4 py-10">
   <h1 class="text-[26px] font-semibold">Thank you for being a valuable customer to us</h1>
   <p class="text-[20px]">We have a surprise gift for you</p>
+  <img class="h-72 md:hidden" src="https://code-with-akash.github.io/foodmunch/images/thanking-section-img.png">
   <button class="bg-yellow-500 p-3 rounded-lg font-['Poppins'] text-[20px] text-white">Redeem Gift</button>
 </div>
 <div class=" flex flex-col items-center justify-center">
-  <img class="h-72" src="https://code-with-akash.github.io/foodmunch/images/thanking-section-img.png">
+  <img class="h-72 hidden md:block " src="https://code-with-akash.github.io/foodmunch/images/thanking-section-img.png">
 </div>
   </div>
 </div>
